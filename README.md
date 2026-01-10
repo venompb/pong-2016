@@ -7,7 +7,7 @@ Idéal pour tester vos réflexes et vous amuser en local.
 
 ## 📷 Aperçu
 ![Screenshot Pong 2016](screenshots/game.png)
-*Le gameplay classique en image !*
+*Le gameplay en image !*
 
 ---
 
