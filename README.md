@@ -7,7 +7,13 @@ Idéal pour tester vos réflexes et vous amuser en local.
 
 ## 📷 Aperçu
 ![Screenshot Pong 2016](screenshots/game.png)
-*Le gameplay en image !*
+*Le gameplay classique en image !*
+
+---
+
+## 🚀 Test du jeu
+Vous pouvez tester le jeu directement avec le dernier exécutable disponible dans le dossier [build](build/pong.exe).  
+> Le binaire reflète toujours le dernier code à jour.
 
 ---
 
@@ -23,7 +29,7 @@ Idéal pour tester vos réflexes et vous amuser en local.
 - Quitter le jeu avec `Esc`  
 
 ## ⚙️ Installation / Compilation
-1. Ouvrir le fichier `.pb` dans PureBasic  
+1. Ouvrir le fichier `.pb` dans PureBasic si vous voulez modifier le code  
 2. Compiler ou exécuter le projet  
 3. Jouer et profiter du Pong classique  
 
