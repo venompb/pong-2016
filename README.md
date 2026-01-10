@@ -1,71 +1,36 @@
-# 🎮 Pong 2016 – PureBasic
+# 🎮 Pong 2016
 
-Jeu Pong développé en 2016 en PureBasic.
+## 📘 Description
+Petit jeu Pong codé en PureBasic.  
+Deux joueurs s’affrontent avec des raquettes pour renvoyer la balle et marquer des points.  
+Idéal pour tester vos réflexes et vous amuser en local.
 
-Projet personnel réalisé pour apprendre :
-- la gestion des sprites
-- les collisions
-- le son
-- les entrées clavier
-
----
-
-## 🖼 Aperçu
-
-![Gameplay](screenshots/game.png)
+## 📷 Aperçu
+![Screenshot Pong 2016](screenshots/game.png)
+*Le gameplay classique en image !*
 
 ---
 
-## 🎮 Gameplay
+## 🛠️ Fonctionnalités
+- Mode 2 joueurs sur le même clavier  
+- Scores affichés en temps réel  
+- Sons et effets visuels de balle et raquette  
 
-- Deux joueurs
-- Score jusqu'à 10
-- Sons intégrés
-- Collision pixel-perfect
-- Remise à zéro avec ESPACE
+## 🕹️ Contrôles / Utilisation
+- Joueur 1 : `W` / `S` pour monter / descendre  
+- Joueur 2 : Flèches `↑` / `↓` pour monter / descendre  
+- Commencer une nouvelle partie avec `Enter`  
+- Quitter le jeu avec `Esc`  
 
----
+## ⚙️ Installation / Compilation
+1. Ouvrir le fichier `.pb` dans PureBasic  
+2. Compiler ou exécuter le projet  
+3. Jouer et profiter du Pong classique  
 
-## 🎮 Contrôles
+## 📄 Licence
+Tous droits réservés – usage personnel uniquement.  
 
-### Joueur droite
-- ↑ : Monter
-- ↓ : Descendre
-
-### Joueur gauche
-- Z : Monter
-- S : Descendre
-
-Autres :
-- ESPACE : Rejouer
-- ÉCHAP : Quitter
-
----
-
-## 🛠 Technique
-
-- Langage : **PureBasic**
-- Version : **5.41**
-- OS d'origine : Windows 10
-- Année : 2016
-
----
-
-## 📦 Installation
-
-1. Ouvrir le fichier `pong.pb`
-2. Compiler avec PureBasic
-3. Lancer l'exécutable
-
----
-
-## 👤 Auteur
-
-**Venom**  
-2016
-
----
-
-## 📜 Licence
-
-Projet personnel – libre d'utilisation à des fins éducatives.
+## 📝 Changelog
+- **v1.0** – Version initiale avec mode 2 joueurs  
+- **v1.1** – Ajout des sons et effets visuels  
+- **v1.2** – Correction des collisions et du score
