@@ -12,8 +12,8 @@ Idéal pour tester vos réflexes et vous amuser en local.
 ---
 
 ## 🚀 Test du jeu
-Vous pouvez tester le jeu directement avec le dernier exécutable disponible ici :  [build](build/pong.exe).  
-> L'executable reflète toujours le dernier code à jour.
+Vous pouvez tester le jeu directement avec le dernier exécutable disponible ici : [build](build/pong.exe).  
+> L'executable correspond au dernier code à jour.
 
 ---
 
