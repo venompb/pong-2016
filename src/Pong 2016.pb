@@ -1,9 +1,10 @@
 ﻿; ///////////////////////////////////////////////
 ; //      Autor :         Venom                //
 ; //      Project name :  Pong 2016            //
-; //      Version :       V 1.0                //
-; //      Compilator :    PureBasic V5.41      //
+; //      Version :       V 2.0                //
+; //      Compilator :    PureBasic V6.30      //
 ; //      Date :          22/03/2016           //
+; //      Relasse :       18/01/2026           //
 ; //      OS :            Windows 10           //
 ; ///////////////////////////////////////////////
 
@@ -95,11 +96,11 @@ If OpenWindow(#Window_0, 0, 0, LargeurFenetre, HauteurFenetre, "Pong 2016", #PB_
     If OpenWindowedScreen(WindowID(#Window_0), 0, 0, LargeurFenetre, HauteurFenetre)
 ;- on charge les images
       LoadSprite(#Fond, Cheminimages$+"fond.png", 0)
-      LoadSprite(#Ball, Cheminimages$+"ball.png", #PB_Sprite_PixelCollision)
-      LoadSprite(#Raquette1H, Cheminimages$+"raquette-1H.png", #PB_Sprite_PixelCollision)
-      LoadSprite(#Raquette1B, Cheminimages$+"raquette-1B.png", #PB_Sprite_PixelCollision)
-      LoadSprite(#Raquette2H, Cheminimages$+"raquette-1H.png", #PB_Sprite_PixelCollision)
-      LoadSprite(#Raquette2B, Cheminimages$+"raquette-1B.png", #PB_Sprite_PixelCollision)
+      LoadSprite(#Ball, Cheminimages$+"ball.png", #PB_Sprite_PixelCollision|#PB_Sprite_AlphaBlending)
+      LoadSprite(#Raquette1H, Cheminimages$+"raquette-1H.png", #PB_Sprite_PixelCollision|#PB_Sprite_AlphaBlending)
+      LoadSprite(#Raquette1B, Cheminimages$+"raquette-1B.png", #PB_Sprite_PixelCollision|#PB_Sprite_AlphaBlending)
+      LoadSprite(#Raquette2H, Cheminimages$+"raquette-1H.png", #PB_Sprite_PixelCollision|#PB_Sprite_AlphaBlending)
+      LoadSprite(#Raquette2B, Cheminimages$+"raquette-1B.png", #PB_Sprite_PixelCollision|#PB_Sprite_AlphaBlending)
       LoadSprite(#BarreH, Cheminimages$+"barreH.png", 0)
       LoadSprite(#BarreB, Cheminimages$+"barreB.png", 0)
       LoadSprite(#BlocCentral, Cheminimages$+"bloc.png", 0)
@@ -348,12 +349,11 @@ For i=1 To Len(Text$)               ; regarde chaque lettre de la chaine (ici PU
  Next
 Next
 EndProcedure
-; IDE Options = PureBasic 5.71 beta 1 LTS (Windows - x64)
-; CursorPosition = 325
-; FirstLine = 320
+; IDE Options = PureBasic 6.30 (Windows - x64)
+; CursorPosition = 6
 ; Folding = -
 ; EnableXP
 ; UseIcon = ..\ICONS\pong.ico
-; Executable = pong 2016 32 bits.exe
+; Executable = pong 2016.exe
 ; Compiler = PureBasic 5.71 beta 1 LTS (Windows - x64)
 ; EnableUnicode
